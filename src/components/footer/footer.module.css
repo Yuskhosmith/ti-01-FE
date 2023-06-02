@@ -1,0 +1,42 @@
+.footer {
+    padding-top: 162px;
+    padding-bottom: 72px;
+    position: relative;
+    background: url('../../assets/img/fotter_image.png'), #442808;
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Playfair Display';
+    font-style: normal;
+}
+
+.cont {
+    margin: 0 93px;
+    display: flex;
+    gap: 66px;
+    justify-content: center;
+}
+
+.info h1 {
+    font-family: 'Clicker Script';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 71px;
+    max-width: 207px;
+    color: #FFFFFF;
+}
+
+.info p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    max-width: 380px;
+    color: #FFFFFF;
+    margin: 20px 0;
+}
+
+.logo {
+    display: flex;
+    gap: 22px;
+}

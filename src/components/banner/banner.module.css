@@ -1,0 +1,38 @@
+.cont {
+    position: relative;
+    margin: 0 93px;
+    padding-top: 54px;
+    padding-bottom: 54px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.bannerCont h1 {
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 72px;
+    color: #FFFFFF;
+    max-width: 575px;
+}
+
+.bannerCont p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    color: #FFFFFF;
+    margin: 22px 0;
+    max-width: 409px;
+}
+
+.cup {
+    position: relative;
+    z-index: 2;
+}
+
+.beans {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}

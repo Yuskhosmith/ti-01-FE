@@ -1,0 +1,23 @@
+.column {
+    color: #FFFFFF;
+}
+
+.header {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 35px;
+    margin-bottom: 55px;
+}
+
+.column ul {
+    list-style: none;
+}
+
+.column li {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 42px;
+    max-width: 332px;
+}
+
+

@@ -1,0 +1,7 @@
+.difference {
+    display: flex;
+    gap: 20px;
+    margin: 32px 0;
+    justify-content: center;
+    flex-wrap: wrap;
+}

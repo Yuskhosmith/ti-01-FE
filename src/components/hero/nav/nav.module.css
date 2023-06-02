@@ -1,0 +1,56 @@
+.nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 93px;
+    padding-top: 20px;
+    background: transparent;
+}
+
+.logo {
+    font-family: 'Clicker Script';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 46px;
+    color: #FFFFFF;
+}
+
+.nav-cont ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 60px;
+    align-items: center;
+}
+
+.nav-cont ul li {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 35px;
+}
+
+.btn{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}

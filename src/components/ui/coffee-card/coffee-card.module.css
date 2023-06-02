@@ -1,0 +1,55 @@
+.card {
+  background: #fff9f1;
+  border: 1px solid rgba(249, 192, 106, 0.42);
+  width: 280px;
+  height: 364px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.image {
+    width: 100%;
+    height: 222px;
+}
+
+.name {
+    text-align: center;
+    margin-top: 14px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 29px;
+    color: #603809;
+}
+
+.description {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #1E1E1E;
+    text-align: center;
+    margin: 6px auto;
+}
+
+.price {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #603809;
+    text-align: center;
+}
+
+  
+.card button {
+    position: absolute;
+    bottom: -24px;
+    right: 73px;
+}

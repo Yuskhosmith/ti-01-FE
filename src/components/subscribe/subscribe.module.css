@@ -1,0 +1,57 @@
+.cont {
+    margin: 0 93px;
+    padding: 80px 0;
+    position: relative;
+}
+
+.cont h1 {
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 72px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.cont p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 26px;
+}
+
+.subscribe input{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    color: rgba(0, 0, 0, 0.34);
+    padding: 16px 26px;
+    width: 448px;
+    border: 1px solid rgba(249, 192, 106, 0.42);
+    border-radius: 4px 0 0 4px;
+    box-sizing: border-box;
+}
+
+.subscribe button {
+    background: #F9C06A;
+    box-shadow: 0px 6px 12px rgba(249, 192, 106, 0.22);
+    border-radius: 0 4px 4px 0;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 29px;
+    color: #603809;
+    padding: 19px 24px;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+}
+
+.subscribe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

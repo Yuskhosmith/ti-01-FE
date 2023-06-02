@@ -1,0 +1,26 @@
+.button {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    outline: none;
+    border: none;
+    height: 48px;
+    padding: 0;
+    color: #1E1E1E;
+    background: #F9C06A;
+    box-shadow: 0px 6px 12px rgba(249, 192, 106, 0.22);
+    border-radius: 24px;
+}
+
+.nav-btn {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 19px;
+    width: 100px;
+}
+
+.norm-btn {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21px;
+    width: 134px;
+}

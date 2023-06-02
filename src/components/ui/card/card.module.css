@@ -1,0 +1,44 @@
+.card {
+    width: 280px;
+    height: 284px;
+    background: #FFF9F1;
+    border: 1px solid rgba(249, 192, 106, 0.42);
+    box-sizing: border-box;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card:hover{
+    background: #FFEED8;
+    border: none;
+}
+
+.icon {
+    height: 88px;
+    width: 88px;
+    margin-top: 36px;
+    margin-bottom: 25px;
+}
+
+.card h1 {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 37px;
+    color: #603809;
+    margin-bottom: 8px;
+}
+
+.card p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #707070;
+    height: 54px;
+    margin-bottom: 36px;
+    max-width: 192px;
+    min-width: 134px;
+}
