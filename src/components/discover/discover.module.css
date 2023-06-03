@@ -14,6 +14,7 @@
     gap: 36px;
     justify-content: center;
     position: relative;
+    flex-wrap: wrap;
 }
 
 .discover h1 {
@@ -67,6 +68,7 @@
     line-height: 72px;
     color: #603809;
     text-align: center;
+    z-index: 20;
 }
 
 .pNorm {
@@ -103,4 +105,36 @@
 
 .why button{
     align-self: center;
+}
+
+@media screen and (max-width: 850px) {
+    .discover,
+    .enjoy,
+    .why {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .why {
+        margin-bottom: 72px;
+    }
+    .blast2 {
+        right: -10%;
+        bottom: -131px;
+    }
+    .blast2 img{
+        opacity: 0.4;
+    }
+}
+
+@media screen and (max-width: 556px) {
+    .cupbeans{
+        width: max-content;
+        height: auto;
+    }
+    .cupbeans img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
 }

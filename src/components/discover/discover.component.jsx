@@ -21,7 +21,7 @@ const Discover = () => {
         </p>
         <Button loc="norm-btn">Learn More</Button>
       </div>
-      <div>
+      <div className={classes.cupbeans}>
       <img
           src={CoffeeCup}
           alt='A Bunch of Coffee grain styled as a cup!'

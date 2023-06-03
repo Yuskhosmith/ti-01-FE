@@ -54,3 +54,17 @@
     border: none;
     outline: none;
 }
+
+@media screen and (max-width: 1000px) {
+    .nav-cont {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .nav {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+  

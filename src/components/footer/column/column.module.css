@@ -20,4 +20,42 @@
     max-width: 332px;
 }
 
+@media screen and (max-width: 1000px) {
+    .header {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+        margin-bottom: 40px;
+    }
+    .column li {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+        max-width: 280px;
+    }
 
+}
+
+@media screen and (max-width: 850px) {
+    .header {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 20px;
+    }
+    .column li {
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 24px;
+        max-width: 140px;
+    }
+
+}
+
+@media screen and (max-width: 556px) {
+    .column li {
+        width: fit-content;
+        max-width: none;
+    }
+  
+  }

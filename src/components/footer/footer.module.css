@@ -40,3 +40,42 @@
     display: flex;
     gap: 22px;
 }
+
+@media screen and (max-width: 1000px) {
+    .footer {
+      padding-top: 132px;
+      padding-bottom: 52px;
+    }
+    
+    .cont {
+      width: 90%;
+      margin: auto;
+      gap: 30px;
+    }
+    
+    .info h1 {
+      font-size: 48px;
+      line-height: 64px;
+      width: fit-content;
+      max-width: none;
+    }
+    
+    .info p {
+      font-size: 12px;
+      line-height: 20px;
+      width: fit-content;
+      max-width: none;
+      margin: 16px 0;
+    }
+    
+    .logo {
+      gap: 16px;
+    }
+}
+
+@media screen and (max-width: 556px) {
+  .cont{
+    flex-direction: column;
+  }
+
+}
