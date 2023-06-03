@@ -6,6 +6,10 @@
     font-style: normal;
 }
 
+.skr {
+    position: relative;
+}
+
 .discover {
     margin-top: 71px;
     display: flex;
@@ -54,7 +58,7 @@
 
 .blast2 {
     position: absolute;
-    right: -93px;
+    right: 0;
     bottom: -131px;
 }
 
@@ -116,10 +120,6 @@
     }
     .why {
         margin-bottom: 72px;
-    }
-    .blast2 {
-        right: -10%;
-        bottom: -131px;
     }
     .blast2 img{
         opacity: 0.4;

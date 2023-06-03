@@ -31,15 +31,17 @@ const Discover = () => {
           <img src={Blast} alt="Coffee Blast" />
       </div>
     </div>
-    <div className={classes.enjoy}>
+    <div className={classes.skr}>
+      <div className={classes.enjoy}>
         <h1 className={classes.headingOne}>Enjoy a new blend of coffee style</h1>
         <p className={classes.pNorm}>Explore all flavours of coffee with us. There is always a new cup worth experiencing</p>
         <CoffeeMenu />
-        
-        <div className={classes.blast2}>
+      </div>
+      <div className={classes.blast2}>
           <img src={Blast} alt="Coffee Blast" />
         </div>
     </div>
+    
     <div className={classes.why}>
         <h1 className={classes.headingOne}>Why are we different?</h1>
         <p className={classes.pNorm}>We don’t just make your coffee, we make your day!</p>
