@@ -1,3 +1,6 @@
+.fbCnt{
+    position: relative;
+}
 .feedback {
     margin: 0 93px;
     font-family: 'Playfair Display';
@@ -6,6 +9,7 @@
     flex-direction: column;
     align-items: center;
     position: relative;
+    overflow: hidden;
 }
 
 .feedback > h1 {
@@ -110,13 +114,13 @@
 .blast {
     position: absolute;
     transform: rotate(180deg);
-    top: 49px;
-    right: -208px;
+    top: 131px;
+    right: 0;
 
 }
 
 .blast2 {
     position: absolute;
-    left: -219px;
-    bottom: -56px;
+    left: 0;
+    bottom: 82px;
 }

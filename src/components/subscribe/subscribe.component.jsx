@@ -1,5 +1,6 @@
 import classes from './subscribe.module.css';
 import BannerTemp from '../ui/banner/banner.component';
+import CupBlastBean from '../../assets/img/cupblastbean.png';
 
 const Subscribe = () => {
 
@@ -12,6 +13,12 @@ const Subscribe = () => {
                     <input type="text" placeholder='Enter your mail'/>
                     <button>Subscribe</button>
                 </div>
+            </div>
+            <div className={classes.blast}>
+                <img src={CupBlastBean} alt="Cup blast bean" />
+            </div>
+            <div className={classes.blast2}>
+                <img src={CupBlastBean} alt="Cup blast bean" />
             </div>
         </BannerTemp>
     );
